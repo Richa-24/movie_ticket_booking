@@ -14,3 +14,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.seatUi{
+  width: 20px;
+  height: 20px;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.seatUi:hover{
+  background-color: rgb(175, 210, 238);
+}
+
+
+.mainProceedButton{
+  display: flex;
+  justify-content: end;
+  margin: 40px 20px;
+}
+
+.mainProceedButton button{
+  cursor: pointer;
+  padding: 10px;
+}
