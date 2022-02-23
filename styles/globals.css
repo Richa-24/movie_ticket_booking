@@ -15,7 +15,7 @@ a {
   box-sizing: border-box;
 }
 
-.seatUi{
+.seatUi, .seatUiSelected{
   width: 20px;
   height: 20px;
   border: 1px solid blue;
@@ -39,4 +39,13 @@ a {
 .mainProceedButton button{
   cursor: pointer;
   padding: 10px;
+}
+
+.seatsRow{
+  display: flex;
+
+}
+
+.seatsRow span{
+  margin: 0px 5px 0px 0px;
 }

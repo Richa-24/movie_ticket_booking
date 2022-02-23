@@ -3,9 +3,15 @@ import Executive from "./Executive"
 import Gold from "./Gold"
 import Premier from "./Premier"
 import Silver from "./Silver"
+import { useRouter } from "next/router"
 
 export default function Mainpage(){
+    const router = useRouter()
+    
+    const handleProceed=()=>{
 
+        router.push("/summary")
+    }
     return(
         <>
             <div>
@@ -22,7 +28,7 @@ export default function Mainpage(){
             </div>
 
             <div className="mainProceedButton">
-                <button>Proceed</button>
+                <button onClick={()=>handleProceed()}>Proceed</button>
             </div>
         </>
     )
